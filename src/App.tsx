@@ -19,13 +19,31 @@ const App = () => {
         </div>
       </header>
       <section className='flex container gap-5 m-auto'>
-        <Cards title='Survive' image='https://projectzomboid.com/blog/content/uploads/2022/01/Survive.jpg' content='Surviving isn’t just about blowing zombie heads off. Depression, starvation, loneliness, infection... Just some of the things to deal with...' />
-        <Cards title='Survive' image='https://projectzomboid.com/blog/content/uploads/2022/01/Survive.jpg' content='Surviving isn’t just about blowing zombie heads off. Depression, starvation, loneliness, infection... Just some of the things to deal with...' />
-        <Cards title='Survive' image='https://projectzomboid.com/blog/content/uploads/2022/01/Survive.jpg' content='Surviving isn’t just about blowing zombie heads off. Depression, starvation, loneliness, infection... Just some of the things to deal with...' />
+        <Cards 
+        title='Survive' 
+        image='https://projectzomboid.com/blog/content/uploads/2022/01/Survive.jpg' 
+        content='Surviving isn’t just about blowing zombie heads off. Depression, starvation, loneliness, infection... Just some of the things to deal with...' />
+
+        <Cards 
+        title='Survive' image='https://projectzomboid.com/blog/content/uploads/2022/01/Survive.jpg' 
+        content='Surviving isn’t just about blowing zombie heads off. Depression, starvation, loneliness, infection... Just some of the things to deal with...' />
+
+        <Cards 
+        title='Survive' image='https://projectzomboid.com/blog/content/uploads/2022/01/Survive.jpg'
+        content='Surviving isn’t just about blowing zombie heads off. Depression, starvation, loneliness, infection... Just some of the things to deal with...' />
 
       </section>
       <section>
-        <Socials title='Join other survivors in our' subtitle='Forum' hasSocials={false} color='#'/>
+        <Socials 
+        link='/' 
+        title='buy on steam' 
+        subtitle='forum' 
+        hasPrice={true} 
+        price={16.75} 
+        hasSocials={true} 
+        socials='https://projectzomboid.com/blog/content/themes/rw-project-zomboid/assets/images/platforms.png' 
+        hasIconLeft={true} iconLeft='https://projectzomboid.com/blog/content/themes/rw-project-zomboid/assets/images/steam.svg' 
+        color='black' />
       </section>
     </div>
   )
