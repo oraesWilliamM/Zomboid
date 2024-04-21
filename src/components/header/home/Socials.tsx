@@ -41,4 +41,5 @@ const Socials = ({ title, subtitle, hasPrice, price, hasSocials, socials, hasIco
     )
 }
 
+
 export default Socials

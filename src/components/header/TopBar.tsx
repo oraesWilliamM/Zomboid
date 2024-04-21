@@ -22,10 +22,14 @@ const TopBar = ({ }) => {
                     <a href="/"><Discord /></a>
 
                 </div>
+                
             </div>
 
         </div>
     )
 }
+
+
+
 
 export default TopBar
